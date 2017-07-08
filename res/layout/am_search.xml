@@ -1,0 +1,56 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/am_search"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="10dp"
+        android:text="@string/search"
+        android:textSize="24sp" />
+
+    <!--  <EditText
+		android:id="@+id/amid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/amid" />-->
+    
+	<!--  <EditText
+		android:id="@+id/actor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/actor" />
+	-->
+	
+	<AutoCompleteTextView
+        android:id="@+id/actorac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp" 
+        android:textSize="20sp"
+        android:hint="@string/actor"/>
+	
+    <!--  <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/title" />-->
+    
+    <AutoCompleteTextView
+        android:id="@+id/movieac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp" 
+        android:textSize="20sp"
+        android:hint="@string/movie"/>
+	
+	/>
+
+
+
+</LinearLayout>

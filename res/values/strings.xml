@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Actor Movie Library</string>
+    <string name="backup_identifier">Identifier</string>
+    <string name="app_color">Color</string>
+    <string name="actionbar_color">Actionbar Color</string>
+    <string name="app_font">Font</string>
+    <string name="app_music">Music</string>
+    <string name="animation">Image Animation</string>
+    <string name="backup">Auto Back up</string>
+    <string name="short_help">Help Animation</string>
+    <string name="sharing">Sharing enabled</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_help">Help</string>
+     
+     <string name="description_image">Image</string>
+     
+    <string name="search_item">Search</string>
+    <string name="new_item">New</string>
+    <string name="delete_item">Delete</string>
+    <string name="delete">Delete</string>
+    <string name="search">Search</string>
+    <string name="amid">ID</string>
+	<string name="actors">Actors</string>
+	<string name="movies">Movies</string>
+	<string name="help">Help</string>
+	<string name="arrange">Arrange</string>
+	<string name="arrange_name">by Name</string>
+	<string name="arrange_birth">by Birth</string>
+	<string name="arrange_title">by Title</string>
+	<string name="arrange_release">by Release</string>
+	<string name="refine">Refine</string>
+	
+	<string name="actor">* Name of Actor or Actress</string>
+	<string name="yearbirth">Year of Birth</string>
+	<string name="nationality">Nationality</string>
+	<string name="movie">* Title of Movie</string>
+	<string name="title">* Title of Movie</string>
+	<string name="yearrelease">Year of Release</string>
+	<string name="genre">Genre</string>
+	<string name="country">Country</string>
+	
+	<string name="editinfo"></string>
+	<string name="editactor">Name of Actor or Actress</string>
+	<string name="edityearbirth">Year of Birth</string>
+	<string name="editnationality">Nationality</string>
+	<string name="editactorweb">Link to Actor or Actress</string>
+	<string name="edittitle">Title of Movie</string>
+	<string name="edityearrelease">Year of Release</string>
+	<string name="editgenre">Genre</string>
+	<string name="editcountry">Country</string>
+	<string name="editmovieweb">Link to Movie</string>
+	
+	<string name="movieweb">Link to Movie</string>
+	<string name="actorweb">Link to Actor or Actress</string>
+	
+	<string name="data">Create actor-movie pair!</string>
+	<string name="data1"></string>
+	<string name="next">Next</string>
+	<string name="done">Done</string>
+	<string name="picture">Picture</string>
+	<string name="pair"></string>
+	
+	<string name="actorwithmovies"></string>
+	<string name="moviewithactors"></string>
+	
+	<string name="actorspec"></string>
+	<string name="moviespec"></string>
+	
+	<string name="linkactor">Link to Actor</string>
+	<string name="linkmovie">Link to Movie</string>
+	<string name="edittext">Edit</string>
+	<string name="share">Share</string>
+	
+	<string-array name="color">
+        <item>blue</item>
+        <item>red</item>
+        <item>cyan</item>
+        <item>gold</item>
+        <item>chartreuse</item>
+        <item>magenta</item>
+        <item>purple</item>
+    </string-array>
+	
+	<string-array name="font">
+        <item>Default</item>
+        <item>Architects Daughter</item>
+        <item>Blokletters-Balpen</item>
+        <item>Comic Relief</item>
+        <item>Courier Prime</item>
+        <item>Heuristica Italic</item>
+        <item>ShortStack-Regular</item>
+        
+        
+    </string-array>
+    
+	<string name="html">
+        <![CDATA[
+        <h3><font color="#a52a2a"> <b> Main Purpose:</b></font></h3>
+        Actors and actresses with movie titles can be stored in the library. Titles with the same name should be stored in a slightly different way. 
+              For example:  The movie Jane Eyre exists with release years: 1943, 1997, 1983, 1996, 2006, 2011. So it is recommended to save them for example as Jane Eyre 1943,
+              Jane Eyre 1997 and so on. It is advisable to do the same with identical actor and actress names.   
+        <p><font color="00008b">-------------------------------------------------------</font></p>
+        <p><font color="#a52a2a"> <b> Menu:</b></font> In the lower right corner on phones and in the upper right corner on tablets there is a menu with options: new, search, delete, help, settings. </p>
+        <p><font color="#a52a2a"> <u>New:</u> </font> An actor or an actress with a movie title should be given. These fields are mandatory. Next a photo can be choosen for the actor or actress, which is optional. The photo can be choosen or modified later on the last screen.</p>
+        
+        <p><font color="#a52a2a"> <u>Search:</u></font> An actor/actress - movie pair can be found or you can search for an actor/actress or movie title by leaving the other field empty. 
+            In that case there will be given a list of actors and actresses for a movie title, and a list of movie titles for an actor or actress. </p>
+        <p><font color="#a52a2a"> <u>Delete:</u></font> A specific actor/actress - movie pair can be deleted. A word completion feature can help to find a pair. <em> All pairs can be deleted at the same time by typing * in both fields.  <font color="#8b0000> Ware! </font></em> </p>
+        <p><font color="#a52a2a"> <u>Help:</u></font> There are 2 helping descriptions. One of them is with animation and the other one is without. Between the two modes it can be switched at the <font color="#a52a2a> Settings: </font> <font color="#00008b"> Help Animation </font></p>
+        <p><font color="#a52a2a"> <u>Settings:</u> </font> In the BASIC SETTING the <font color ="#00008b"> Auto Back up </font> means that if it is set to true the data will be kept after deleting and reinstalling the app. Another feature is the <font color="#00008b"> Sharing enabled </font> option. 
+         If it is set to true, an actor/actress - movie pair with photos can be shared with others. </p>
+         <p> In the MORE SETTING if the <font color="#00008b"> Image Animation </font> is set to true, an animation of photos, previously stored in the library, is shown in the start screen.  
+         The <font color="#00008b"> Help Animation </font> is discussed under Help.  The background color can be choosen with <font color="#00008b"> Color </font> and the font family with <font color="#00008b"> Font. </font></p>
+        <p><font color="00008b">-------------------------------------------------------</font></p>
+        
+        <p><font color="#a52a2a"> <b>Actors:</b></font> To get the list of actors and actresses, the <font color="#00008b"> ACTORS </font> button has to be choosen on the start screen. 
+             On the next screen the order of the list can be selected <font color="#00008b"> BY NAME </font> (alphabetical ascending order) or <font color="#00008b"> BY BIRTH </font> (numerical descending order) . </p>
+        
+        <p><font color="#a52a2a"> <b>Movies:</b></font> To get the list of movie titles, the <font color="#00008b"> MOVIES </font> button has to be choosen on the start screen. 
+             On the next screen the order of the list can be selected <font color="#00008b"> BY TITLE </font> (alphabetical ascending order) or <font color="#00008b"> BY BIRTH </font> (numerical descending order) . </p>
+        
+        
+        <p><font color="00008b">-------------------------------------------------------</font></p>
+        
+        <h3><font color="#a52a2a"> <b>Actor Movie Pair:</b></font></h3>
+        
+        <p>This pair is on the last screen in the app. It shows the details about the actor or actress and the movie. </p>
+        <p><font color="#a52a2a"> <u>Image:</u></font> The upper image should show the actor/actress and the lower one should show an image related to the movie title. 
+              To set or change an image, long press on the image or image frame. To view an image in full screen, short press on the image.</p>
+        
+        <p><font color="#a52a2a"> <b> Menu:</b></font> In the upper right corner there is a menu with options: edit, share, delete. </p>
+        <p><font color="#a52a2a"> <u>Edit:</u></font> It opens a new screen, where the details (except actor/actress name and movie title) can be set or modified. 
+               Links to the actor or actress, and to the movie can be added by copying URLs into the fields 
+               <font color="#00008b"> <em>Link to Actor or Actress:</em></font> and <font color="#00008b"> <em>Link to Movie:</em></font> respectively.  </p>
+        
+        <p><font color="#a52a2a"> <u>Share:</u></font> The actor or actress and the movie title pair with the accompanying images can be sent via Skype, Gmail, Drive, etc. </p>
+        <p><font color="#a52a2a"> <u>Delete:</u></font> The actor or actress and the movie title pair can be deleted.  </p>
+        <p><font color="#a52a2a"> <u>A button:</u></font> and <font color="#a52a2a"> <u>M button:</u></font> 
+               If links to the actor or actress, or to the movie were set in the Edit screen, they can be opened in the browser by using the letter icons 
+               <b>A</b> and <b>M</b> respectively.   </p>
+        
+        
+        
+        
+        
+        <!--<h1>Main Title</h1>
+        <h2> A sub-title</h2>
+        <h3> A sub-title</h3>
+        <h4> A sub-title</h4>
+        <h5> A sub-title</h5>
+        <p><font color="#a52a2a" size="10"> This is the color red.</font> </p>
+        <p><font color="#00008b" size="5"> This is the color blue.</font> </p>
+        <p>This is some html. Look, here\'s an <u>underline</u>.</p>
+        <p>Look, this is <em>emphasized.</em> And here\'s some <b>bold</b>.</p>
+        <p>This is a UL list:
+        <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        </ul>
+        <p>This is an OL list:
+        <ol>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>Four</li>
+        
+        </ol>-->
+        
+        ]]>
+    </string>
+</resources>

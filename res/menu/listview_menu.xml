@@ -1,0 +1,45 @@
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        
+	   <!--  <item 
+	       android:showAsAction="always"
+	       android:orderInCategory="100"
+	       android:title="@string/arrange">
+         <menu> 
+             <item
+        android:id="@+id/arrange_name"
+        android:title="@string/arrange_name"/>
+             <item
+        android:id="@+id/arrange_birth"
+        android:title="@string/arrange_birth"/>
+             
+	</menu>
+           </item>  -->
+           <item 
+        android:id="@+id/arrange_name"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/arrange_name"/>
+	
+	   <item 
+        android:id="@+id/arrange_birth"
+        android:orderInCategory="200"
+        android:showAsAction="always"
+        android:title="@string/arrange_birth"/>
+           
+           
+          
+	   <!--  <item
+    android:icon="@drawable/ic_menu_sort"
+    android:showAsAction="ifRoom">
+    <menu>
+        <item
+            android:id="@+id/menuSortNewest"
+            android:title="Sort by newest" />
+        <item
+            android:id="@+id/menuSortRating"
+            android:title="Sort by rating" />
+       </menu>
+   </item>-->
+
+    </menu>

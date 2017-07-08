@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+<color name="background">#ff204060</color>
+<color name="dark">#ff56648f</color>
+<color name="setting">#ff666666</color>
+<color name="popup">#00ffffff</color>
+<color name="textcolor"> #ff007aff</color>
+<color name="shadow"> #00000000</color>
+<color name="white">#ffffffff</color>
+<color name="black">#ff222222</color>
+<color name="pitchblack">#ff000000</color>
+<color name="grey">#ff333333</color>
+<color name="textauto">#6627abd3</color>
+
+<!--  <color name="red">#ff4444</color>-->
+<color name="red">#ff5555</color>
+<color name="actionbarred">#EE3333</color>
+
+
+<color name="transparent">#00ffffff</color>
+<color name="transblue">#9927abd3</color>
+
+<color name="lightblue">#27abd3</color>
+<color name="actionbarblue">#0589b1</color>
+
+<color name="actionbartitle">#035580</color>
+
+<color name="gold">#d3ab27</color>
+<color name="actionbargold">#ffb18905</color>
+
+<color name="cyan">#27d3ab</color>
+<color name="actionbarcyan">#05b189</color>
+
+<color name="chartreuse">#abd327</color>
+<color name="actionbarchartreuse">#89b105</color>
+
+<color name="magenta">#d327ab</color>
+<color name="actionbarmagenta">#b10589</color>
+
+<color name="purple">#ab27d3</color>
+<color name="actionbarpurple">#8905b1</color>
+
+<color name="appwhite">#ffffff</color>
+</resources>

@@ -1,0 +1,40 @@
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        
+         <!--  <item 
+       
+        
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/arrange">
+        <menu> 
+             <item
+        android:id="@+id/arrange_title"
+        android:title="@string/arrange_title"/>
+             <item
+        android:id="@+id/arrange_release"
+        android:title="@string/arrange_release"/>
+             
+	</menu>
+             
+             
+	</item>-->
+	 <item 
+        android:id="@+id/arrange_title"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/arrange_title"/>
+	
+	   <item 
+        android:id="@+id/arrange_release"
+        android:orderInCategory="200"
+        android:showAsAction="always"
+        android:title="@string/arrange_release"/>
+	   
+	   <!--  <item 
+        android:id="@+id/group"
+        android:orderInCategory="200"
+        android:showAsAction="always"
+        android:title="@string/refine"/>
+        -->
+    </menu>

@@ -1,0 +1,45 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/actor_movie"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:background="@color/lightblue">
+
+<LinearLayout
+    android:id="@+id/am_help"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="vertical" 
+     >
+ 
+   
+ 
+     <TextView
+        android:id="@+id/helptext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="10dp"
+        android:text="@string/data1"
+        android:textSize="24sp" />
+    
+     
+     <!--  <WebView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/webView"
+      
+        />-->
+     
+      <ImageView
+        android:id="@+id/imageViewAnim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/description_image" 
+        android:alpha="0.35"
+        
+        />
+    
+</LinearLayout>
+
+</ScrollView>

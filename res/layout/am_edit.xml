@@ -1,0 +1,86 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/am_edit"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightblue" >
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="10dp"
+        android:text="@string/editinfo"
+        android:textSize="24sp" />
+
+	<EditText
+		android:id="@+id/editactor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/editactor"
+         android:clickable="false" 
+        android:cursorVisible="false" 
+        android:focusable="false" 
+        android:focusableInTouchMode="false" />
+	<EditText
+		android:id="@+id/edityearbirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edityearbirth" />
+	<EditText
+		android:id="@+id/editnationality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/editnationality" />
+
+	<EditText
+	    android:id="@+id/editactorweb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/editactorweb" />
+	
+	
+	<EditText
+        android:id="@+id/edittitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edittitle" 
+         android:clickable="false" 
+        android:cursorVisible="false" 
+        android:focusable="false" 
+        android:focusableInTouchMode="false"/>
+
+	<EditText
+	    android:id="@+id/edityearrelease"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edityearrelease" />
+
+	<EditText
+	    android:id="@+id/editgenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/editgenre" />
+	<EditText
+	    android:id="@+id/editcountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/editcountry" />
+	<EditText
+	    android:id="@+id/editmovieweb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/editmovieweb" />
+	
+    <!--  <ImageView
+        android:id="@+id/imageViewNew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+   -->
+	/>
+
+
+
+</LinearLayout>

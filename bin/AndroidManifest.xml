@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.magic.am"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="22" />
+    
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.google.android.apps.photos.permission.GOOGLE_PHOTOS"/>
+    <uses-permission android:name="com.android.providers.downloads.DownloadStorageProvider"/>
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    
+   
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launcher6"
+        android:backupAgent="MyBackupAgent"
+        android:label="@string/app_name"
+        android:theme="@style/MyTheme" >
+        <!-- android:theme="@style/AppTheme" -->
+        
+        <activity
+              android:uiOptions="splitActionBarWhenNarrow"
+            android:name=".AMStart"
+            android:label="@string/app_name" 
+           >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity 
+            
+            
+            android:label="AMSetting"
+            android:name=".AMSetting"
+            >
+            
+             <intent-filter>
+                <action android:name="org.magic.am.AMSetting" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         
+         <activity 
+            
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:label="AMHelp"
+            android:name=".AMHelp"
+            >
+            
+             <intent-filter>
+                <action android:name="org.magic.am.AMHelp" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity 
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:label="AMNew"
+            android:name=".AMNew"
+            >
+            
+             <intent-filter>
+                <action android:name="org.magic.am.AMNew" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:label="AMPicture"
+            android:name=".AMPicture"
+            >
+            
+             <intent-filter>
+                <action android:name="org.magic.am.AMPicture" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity 
+           android:uiOptions="splitActionBarWhenNarrow"
+            android:label="Actors"
+            android:name=".Actors"
+            >
+            
+             <intent-filter>
+                <action android:name="org.magic.am.Actors" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity 
+           android:uiOptions="splitActionBarWhenNarrow"
+            android:label="Movies"
+            android:name=".Movies"
+            >
+                         
+             <intent-filter>
+                <action android:name="org.magic.am.Movies" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         
+         <activity 
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:label="AMSearch"
+            android:name=".AMSearch"
+            >
+            
+             <intent-filter>
+                <action android:name="org.magic.am.AMSearch" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+         </activity>
+       
+         
+         <activity 
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:label="AMDelete"
+            android:name=".AMDelete"
+            >
+            
+             <intent-filter>
+                <action android:name="org.magic.am.AMDelete" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity 
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:label="ActorMovies"
+            android:name=".ActorMovies"
+            >
+            
+             <intent-filter>
+                <action android:name="org.magic.am.ActorMovies" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity 
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:label="MovieActors"
+            android:name=".MovieActors"
+            >
+            
+             <intent-filter>
+                <action android:name="org.magic.am.MovieActors" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity 
+             
+            android:label="ActorMovie"
+            android:name=".ActorMovie"
+            >
+            
+             <intent-filter>
+                <action android:name="org.magic.am.ActorMovie" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity 
+             
+            android:label="AMFullscreen"
+            android:name=".AMFullscreen"
+            >
+            
+             <intent-filter>
+                <action android:name="org.magic.am.AMFullscreen" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity 
+             android:uiOptions="splitActionBarWhenNarrow"
+            android:label="AMEdit"
+            android:name=".AMEdit"
+            >
+            
+             <intent-filter>
+                <action android:name="org.magic.am.AMEdit" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    
+ <activity 
+             
+            android:label="AMDialog"
+            android:name=".AMDialog"
+            >
+            
+             <intent-filter>
+                <action android:name="org.magic.am.AMDialog" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

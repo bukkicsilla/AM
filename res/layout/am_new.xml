@@ -1,0 +1,76 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/am_new"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="10dp"
+        android:text="@string/data"
+        android:textSize="24sp" />
+
+	<!--  <EditText
+		android:id="@+id/actor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/actor" />-->
+   
+   <AutoCompleteTextView
+        android:id="@+id/actor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/actor"/>
+   
+	<EditText
+		android:id="@+id/yearbirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/yearbirth" />
+	<EditText
+		android:id="@+id/nationality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nationality" />
+    <!--  <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/title" />-->
+        
+     <AutoCompleteTextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/title"/>
+	
+	<EditText
+	    android:id="@+id/yearrelease"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/yearrelease" />
+
+	<EditText
+	    android:id="@+id/genre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/genre" />
+	<EditText
+	    android:id="@+id/country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/country" />
+    <!--  <ImageView
+        android:id="@+id/imageViewNew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+   -->
+	/>
+
+
+
+</LinearLayout>

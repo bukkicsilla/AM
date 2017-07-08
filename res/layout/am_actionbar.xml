@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/actionbar"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+     android:paddingLeft="5dp"
+    android:paddingTop="7dp"
+    
+    >
+ <TextView
+    android:id="@+id/title1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/app_name"
+    android:textSize="20sp"
+    android:textColor="@color/black"
+/>
+ </LinearLayout>

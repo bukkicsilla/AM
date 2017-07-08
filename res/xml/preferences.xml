@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/preferences">
+    
+    <PreferenceCategory 
+        android:title="Basic Setting">
+        
+        <CheckBoxPreference
+        android:key="back_up"
+        android:title="@string/backup"
+        android:defaultValue="true" />
+        
+        <!--  <EditTextPreference
+        
+        android:key="backup_identifier"
+        android:dependency="back_up"
+        android:title="@string/backup_identifier"
+        android:summary="autobackup"
+        android:defaultValue="" />-->
+          
+         <!--  <EditTextPreference
+        
+        android:key="backup_password"
+        android:dependency="back_up"
+        android:title="@string/backup_password"
+        android:inputType="textPassword"
+        android:defaultValue="" />-->
+          
+        <CheckBoxPreference
+        android:key="sharing"
+        android:title="@string/sharing"
+        android:defaultValue="true" />
+        
+   
+     
+    
+      <!--  <CheckBoxPreference
+        android:key="app_music"
+        android:title="@string/app_music"
+        android:summary="@string/app_music"
+        android:defaultValue="false" />-->
+    
+    </PreferenceCategory>
+    
+     <PreferenceCategory 
+        android:title="More Setting">
+           
+    <!--  <CheckBoxPreference
+        android:key="pref_sync"
+        android:title="@string/app_color"
+        android:summary="@string/app_color"
+        android:defaultValue="true" />
+       
+       <ListPreference
+        
+        android:key="pref_syncConnectionType"
+        android:dependency="pref_sync"
+        android:title="@string/app_color"
+        android:dialogTitle="@string/app_color"
+        android:entries="@array/color"
+        android:entryValues="@array/color"
+        android:defaultValue="@string/app_color" />-->
+        
+        
+          <CheckBoxPreference
+        android:key="animation"
+        android:title="@string/animation"
+        android:defaultValue="true" />
+          
+          <CheckBoxPreference
+        android:key="short_help"
+        android:title="@string/short_help"
+        android:defaultValue="false" />
+        
+    <ListPreference
+        
+        android:key="app_color"
+        android:title="@string/app_color"
+        android:dialogTitle="@string/app_color"
+        android:entries="@array/color"
+        android:entryValues="@array/color"
+        android:defaultValue="blue" />
+     
+         
+    <!--  <ListPreference
+        
+        android:key="actionbar_color"
+        android:title="@string/actionbar_color"
+        android:dialogTitle="@string/actionbar_color"
+        android:entries="@array/color"
+        android:entryValues="@array/color"
+        android:defaultValue="Blue" />-->
+     <ListPreference
+        
+        android:key="app_font"
+        android:title="@string/app_font"
+        android:dialogTitle="@string/app_font"
+        android:entries="@array/font"
+        android:entryValues="@array/font"
+        android:defaultValue="Default" />
+     </PreferenceCategory>
+     
+</PreferenceScreen>

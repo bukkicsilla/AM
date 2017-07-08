@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    
+    <item android:drawable="@drawable/helpmenu" android:duration="3000" />
+    <item android:drawable="@drawable/helpform" android:duration="3000" />
+     <item android:drawable="@drawable/helpactors" android:duration="3000"/>
+      <item android:drawable="@drawable/helpmovies" android:duration="3000" />
+      <item android:drawable="@drawable/helppair" android:duration="3000"/>
+      <item android:drawable="@drawable/helpedit" android:duration="3000" />
+      <item android:drawable="@drawable/helplongpress" android:duration="3000"/>
+      <item android:drawable="@drawable/helpsearch" android:duration="3000" />
+      <item android:drawable="@drawable/helpdelete" android:duration="3000" />
+</animation-list>

@@ -1,0 +1,36 @@
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        
+         <item 
+        android:id="@+id/linkactor"
+        android:orderInCategory="100"
+        android:icon="@drawable/linkactor1"
+        android:showAsAction="always"
+        android:title="@string/linkactor"/>
+         
+          <item 
+        android:id="@+id/linkmovie"
+        android:orderInCategory="200"
+        android:icon="@drawable/linkmovie1"
+        android:showAsAction="always"
+        android:title="@string/linkmovie"/>
+          
+        
+        
+         <item 
+        android:id="@+id/share"
+        android:orderInCategory="400"
+        android:showAsAction="never"
+        android:title="@string/share"/>
+        <item 
+        android:id="@+id/edittext"
+        android:orderInCategory="300"
+        android:showAsAction="never"
+        android:title="@string/edittext"/>
+         
+          <item 
+        android:id="@+id/deletepair"
+        android:orderInCategory="500"
+        android:showAsAction="never"
+        android:title="@string/delete"/>
+    </menu>
